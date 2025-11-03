@@ -31,6 +31,6 @@ jobs:
     git config --global --unset credential.helper 
       
       with:
-        app-name: <YOUR_APP_NAME>  # Replace with your Azure Web App name
+        app-name: infocmain  # Replace with your Azure Web App name
         slot-name: 'production'  # Use 'staging' if deploying to a staging slot
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
